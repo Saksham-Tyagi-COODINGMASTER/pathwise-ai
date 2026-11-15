@@ -1,7 +1,7 @@
 {
   "CS101C": [
     {
-      "id": "CS101_Q1",
+      "id": "CS101C_Q1",
       "skill": "Python",
       "difficulty": "easy",
       "question": "Which keyword is used to define a function in Python?",
@@ -15,7 +15,7 @@
       "explanation": "Python uses the def keyword to define a function."
     },
     {
-      "id": "CS101_Q2",
+      "id": "CS101C_Q2",
       "skill": "Programming Logic",
       "difficulty": "easy",
       "question": "What is the output of print(2 + 3 * 4)?",
@@ -29,7 +29,7 @@
       "explanation": "Multiplication happens before addition, so 2 + 12 = 14."
     },
     {
-      "id": "CS101_Q3",
+      "id": "CS101C_Q3",
       "skill": "Python",
       "difficulty": "easy",
       "question": "Which of the following creates a list in Python?",
@@ -43,7 +43,7 @@
       "explanation": "Square brackets create a list. Parentheses create a tuple and curly braces create a set."
     },
     {
-      "id": "CS101_Q4",
+      "id": "CS101C_Q4",
       "skill": "Programming Logic",
       "difficulty": "medium",
       "question": "How many times does the body of this loop run? for i in range(1, 6): print(i)",
@@ -131,7 +131,7 @@
   ],
   "MA108T": [
     {
-      "id": "MA101_Q1",
+      "id": "MA108T_Q1",
       "skill": "Calculus",
       "difficulty": "easy",
       "question": "What is the derivative of x\u00b2 with respect to x?",
@@ -145,7 +145,7 @@
       "explanation": "Using the power rule, d(x\u00b2)/dx = 2x."
     },
     {
-      "id": "MA101_Q2",
+      "id": "MA108T_Q2",
       "skill": "Calculus",
       "difficulty": "medium",
       "question": "What is the derivative of sin(x)?",
@@ -159,7 +159,7 @@
       "explanation": "The derivative of sin(x) is cos(x)."
     },
     {
-      "id": "MA101_Q3",
+      "id": "MA108T_Q3",
       "skill": "Mathematical Reasoning",
       "difficulty": "easy",
       "question": "If f(x) = 3x + 2, what is f(4)?",
@@ -173,7 +173,7 @@
       "explanation": "Substitute x = 4: 3(4) + 2 = 14."
     },
     {
-      "id": "MA101_Q4",
+      "id": "MA108T_Q4",
       "skill": "Mathematical Reasoning",
       "difficulty": "medium",
       "question": "If a function is differentiable at a point, which statement must be true?",
@@ -187,7 +187,7 @@
       "explanation": "Differentiability at a point implies continuity there. The reverse is not always true."
     },
     {
-      "id": "MA101_Q5",
+      "id": "MA108T_Q5",
       "skill": "Calculus",
       "difficulty": "medium",
       "question": "What is the integral of 2x dx?",
