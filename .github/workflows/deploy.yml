@@ -39,13 +39,11 @@ jobs:
         working-directory: frontend
         run: npm ci
 
-      
       - name: Build frontend
         working-directory: frontend
         env:
           VITE_GOOGLE_CLIENT_ID: ${{ vars.VITE_GOOGLE_CLIENT_ID }}
         run: npm run build
-
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -53,8 +51,11 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: pathwise-pages
           path: frontend/dist
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: pathwise-pages
