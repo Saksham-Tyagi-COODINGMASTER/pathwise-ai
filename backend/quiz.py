@@ -275,11 +275,11 @@ Return only valid JSON in this format:
 """
 
     # Try Gemini, then Groq
-   ai_result = generate_with_fallback(prompt)
+    ai_result = generate_with_fallback(prompt)
 
-print("AI RESULT SUCCESS:", ai_result.get("success"))
-print("AI PROVIDER:", ai_result.get("provider"))
-print("AI ERROR:", ai_result.get("error"))
+     print("AI RESULT SUCCESS:", ai_result.get("success"))
+     print("AI PROVIDER:", ai_result.get("provider"))
+     print("AI ERROR:", ai_result.get("error"))
 
     
     ai_questions = []
