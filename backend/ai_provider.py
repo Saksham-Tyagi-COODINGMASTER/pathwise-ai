@@ -11,17 +11,21 @@ def generate_with_fallback(prompt: str) -> dict:
 
         result = generate_text(prompt)
 
+        if not result or not isinstance(result, str):
+            raise ValueError("Gemini returned an empty or invalid response.")
+
         return {
             "success": True,
             "provider": "gemini",
             "content": result,
-            "errors": errors
+            "errors": errors,
+            "error": None
         }
 
     except Exception as error:
         errors["gemini"] = str(error)
-        print(f"Gemini failed: {error}")
-        print("Trying Groq...")
+        print(f"Gemini failed: {error}", flush=True)
+        print("Trying Groq...", flush=True)
 
     # Second provider: Groq
     try:
@@ -29,20 +33,29 @@ def generate_with_fallback(prompt: str) -> dict:
 
         result = generate_text(prompt)
 
+        if not result or not isinstance(result, str):
+            raise ValueError("Groq returned an empty or invalid response.")
+
         return {
             "success": True,
             "provider": "groq",
             "content": result,
-            "errors": errors
+            "errors": errors,
+            "error": None
         }
 
     except Exception as error:
         errors["groq"] = str(error)
-        print(f"Groq failed: {error}")
+        print(f"Groq failed: {error}", flush=True)
 
     return {
         "success": False,
         "provider": None,
         "content": None,
-        "errors": errors
+        "errors": errors,
+        "error": (
+            f"Gemini: {errors['gemini']} | "
+            f"Groq: {errors['groq']}"
+        )
     }
+
