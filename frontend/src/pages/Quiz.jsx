@@ -56,13 +56,15 @@ function Quiz() {
       savedUser = null;
     }
 
-    if (!savedToken || !savedUser?.student_id) {
-      navigate("/login");
-      return;
-    }
+    const id = savedUser?.student_id || savedUser?.id;
 
-    setToken(savedToken);
-    setStudentId(savedUser.student_id);
+if (!savedToken || !id) {
+  navigate("/login");
+  return;
+}
+
+setToken(savedToken);
+setStudentId(id);
     setLoading(false);
   }, [navigate]);
 
