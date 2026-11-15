@@ -1,10 +1,12 @@
 
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from groq import Groq
 
-load_dotenv()
+BACKEND_DIR = Path(__file__).resolve().parent
+load_dotenv(BACKEND_DIR / ".env")
 
 GROQ_API_KEY = os.getenv("PATHWISE_GROQ_API_KEY")
 GROQ_MODEL = os.getenv("PATHWISE_GROQ_MODEL")
@@ -14,10 +16,10 @@ def generate_text(prompt: str) -> str:
     """Generate text using the official Groq SDK."""
 
     if not GROQ_API_KEY:
-        raise RuntimeError("PATHWISE_GROQ_API_KEY is missing from .env")
+        raise RuntimeError("PATHWISE_GROQ_API_KEY is missing.")
 
     if not GROQ_MODEL:
-        raise RuntimeError("PATHWISE_GROQ_MODEL is missing from .env")
+        raise RuntimeError("PATHWISE_GROQ_MODEL is missing.")
 
     client = Groq(api_key=GROQ_API_KEY)
 
@@ -32,7 +34,7 @@ def generate_text(prompt: str) -> str:
 
     content = response.choices[0].message.content
 
-    if not content:
+    if not content or not content.strip():
         raise RuntimeError("Groq returned an empty response.")
 
-    return content
+    return content.strip()
