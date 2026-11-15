@@ -7,3 +7,4 @@ litellm
 google-auth
 PyJWT
 google-genai
+python-multipart
