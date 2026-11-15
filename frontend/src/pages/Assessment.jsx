@@ -3,8 +3,10 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Assessment.css";
 
-const API_URL =
-  import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const API_URL = (
+  import.meta.env.VITE_API_URL ||
+  "https://pathwise-ai-backend-b38t.onrender.com"
+).replace(/\/$/, "");
 
 function Assessment() {
   const navigate = useNavigate();
