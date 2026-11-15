@@ -18,7 +18,20 @@ import AppLayout from "./components/AppLayout";
 // Read saved login information.
 function getStoredUser() {
   try {
-    return JSON.parse(localStorage.getItem("pathwise_user") || "null");
+    const user = JSON.parse(
+      localStorage.getItem("pathwise_user") || "null"
+    );
+
+    if (!user) return null;
+
+    return {
+      ...user,
+      onboarding_completed:
+        user.onboarding_completed ??
+        user.onboarding_complete ??
+        user["onboarding complete"] ??
+        false,
+    };
   } catch {
     return null;
   }
