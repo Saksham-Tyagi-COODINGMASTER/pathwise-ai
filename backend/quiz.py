@@ -25,13 +25,12 @@ def get_questions(course_id):
     """Return questions belonging to a particular course."""
 
     questions = load_questions()
-
     course_id = str(course_id).strip().upper()
 
-    print("QUESTION BANK:", QUESTIONS_FILE.resolve())
-    print("AVAILABLE COURSES:", list(questions.keys()))
-    print("REQUESTED COURSE:", repr(course_id))
-    print("QUESTIONS FOUND:", len(questions.get(course_id, [])))
+    print("QUESTION BANK:", QUESTIONS_FILE.resolve(), flush=True)
+    print("AVAILABLE COURSES:", list(questions.keys()), flush=True)
+    print("REQUESTED COURSE:", repr(course_id), flush=True)
+    print("QUESTIONS FOUND:", len(questions.get(course_id, [])), flush=True)
 
     return questions.get(course_id, [])
 
@@ -44,10 +43,7 @@ def calculate_score(course_id, submitted_answers):
     if not questions:
         raise ValueError(f"No questions found for course: {course_id}")
 
-    return calculate_score_for_questions(
-        questions,
-        submitted_answers
-    )
+    return calculate_score_for_questions(questions, submitted_answers)
 
 
 def calculate_score_for_questions(questions, submitted_answers):
@@ -61,7 +57,6 @@ def calculate_score_for_questions(questions, submitted_answers):
     for question in questions:
         question_id = question["id"]
         correct_answer = question["correct_answer"]
-
         submitted_answer = submitted_answers.get(question_id)
 
         if submitted_answer == correct_answer:
@@ -110,6 +105,9 @@ def validate_question(question):
     ):
         return False
 
+    if not isinstance(question["difficulty"], str):
+        return False
+
     difficulty = question["difficulty"].lower()
 
     if difficulty not in {"easy", "medium", "hard"}:
@@ -141,7 +139,6 @@ def parse_ai_questions(content):
     if not isinstance(content, str):
         return []
 
-    # Remove optional Markdown code fences
     content = re.sub(
         r"^\s*```(?:json)?\s*|\s*```\s*$",
         "",
@@ -189,13 +186,12 @@ def get_local_fallback(course_id, difficulty, num_questions):
             if question.get("difficulty", "").lower() == difficulty
         ]
 
-    # Avoid duplicate question IDs
     unique_questions = {}
+
     for question in questions:
         unique_questions[question["id"]] = question
 
     questions = list(unique_questions.values())
-
     random.shuffle(questions)
 
     return questions[:num_questions]
@@ -208,12 +204,10 @@ def generate_quiz(
     course_name=None,
     topics=None
 ):
-    """
-    Generate a quiz using Gemini, Groq, or the local question bank.
-    """
+    """Generate a quiz using Gemini, Groq, or the local question bank."""
 
-    course_id = course_id.upper()
-    difficulty = difficulty.lower()
+    course_id = str(course_id).strip().upper()
+    difficulty = str(difficulty).strip().lower()
 
     if difficulty not in VALID_DIFFICULTIES:
         raise ValueError(
@@ -275,19 +269,42 @@ Return only valid JSON in this format:
 """
 
     # Try Gemini, then Groq
-    ai_result = generate_with_fallback(prompt)
+    try:
+        ai_result = generate_with_fallback(prompt)
+    except Exception as error:
+        print("AI PROVIDER EXCEPTION:", repr(error), flush=True)
 
-     print("AI RESULT SUCCESS:", ai_result.get("success"))
-     print("AI PROVIDER:", ai_result.get("provider"))
-     print("AI ERROR:", ai_result.get("error"))
+        ai_result = {
+            "success": False,
+            "provider": None,
+            "content": None,
+            "error": str(error),
+            "errors": {}
+        }
 
-    
+    print(
+        "AI RESULT SUCCESS:",
+        ai_result.get("success"),
+        flush=True
+    )
+    print(
+        "AI PROVIDER:",
+        ai_result.get("provider"),
+        flush=True
+    )
+    print(
+        "AI ERRORS:",
+        ai_result.get("errors"),
+        flush=True
+    )
+
     ai_questions = []
 
-    if ai_result["success"]:
-        ai_questions = parse_ai_questions(ai_result["content"])
+    if ai_result.get("success"):
+        ai_questions = parse_ai_questions(
+            ai_result.get("content", "")
+        )
 
-        # Enforce selected difficulty
         if difficulty != "adaptive":
             ai_questions = [
                 question for question in ai_questions
@@ -307,7 +324,6 @@ Return only valid JSON in this format:
             remaining_count
         )
 
-        # Avoid duplicate IDs
         existing_ids = {
             question["id"] for question in selected_questions
         }
@@ -334,9 +350,9 @@ Return only valid JSON in this format:
 
     # Determine which sources contributed questions
     if ai_questions and len(selected_questions) > len(ai_questions):
-        provider = f"{ai_result['provider']}+local"
+        provider = f"{ai_result.get('provider')}+local"
     elif ai_questions:
-        provider = ai_result["provider"]
+        provider = ai_result.get("provider")
     else:
         provider = "local"
 
