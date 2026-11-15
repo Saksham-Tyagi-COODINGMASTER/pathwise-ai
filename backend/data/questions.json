@@ -1,5 +1,5 @@
 {
-  "CS101": [
+  "CS101C": [
     {
       "id": "CS101_Q1",
       "skill": "Python",
@@ -129,7 +129,7 @@
       "explanation": "A hash table computes an index from the key, so lookups take O(1) on average."
     }
   ],
-  "MA101": [
+  "MA108T": [
     {
       "id": "MA101_Q1",
       "skill": "Calculus",
