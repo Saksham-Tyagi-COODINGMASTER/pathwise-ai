@@ -25,7 +25,15 @@ def get_questions(course_id):
     """Return questions belonging to a particular course."""
 
     questions = load_questions()
-    return questions.get(course_id.upper(), [])
+
+    course_id = str(course_id).strip().upper()
+
+    print("QUESTION BANK:", QUESTIONS_FILE.resolve())
+    print("AVAILABLE COURSES:", list(questions.keys()))
+    print("REQUESTED COURSE:", repr(course_id))
+    print("QUESTIONS FOUND:", len(questions.get(course_id, [])))
+
+    return questions.get(course_id, [])
 
 
 def calculate_score(course_id, submitted_answers):
@@ -267,7 +275,11 @@ Return only valid JSON in this format:
 """
 
     # Try Gemini, then Groq
-    ai_result = generate_with_fallback(prompt)
+   ai_result = generate_with_fallback(prompt)
+
+print("AI RESULT SUCCESS:", ai_result.get("success"))
+print("AI PROVIDER:", ai_result.get("provider"))
+print("AI ERROR:", ai_result.get("error"))
 
     
     ai_questions = []
