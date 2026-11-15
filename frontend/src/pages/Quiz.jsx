@@ -3,8 +3,10 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import "./Quiz.css";
 
-const API_URL =
-  import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const API_URL = (
+  import.meta.env.VITE_API_URL ||
+  "https://pathwise-ai-backend-b38t.onrender.com"
+).replace(/\/$/, "");
 
 const COURSE_NAMES = {
   CS101: "Introduction to Programming",
