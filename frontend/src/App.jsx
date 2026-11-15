@@ -150,13 +150,15 @@ function App() {
         />
 
         <Route
-          path="/quiz/:courseId"
-          element={
-            <StudentLayout>
-              <Quiz />
-            </StudentLayout>
-          }
-        />
+  path="/quiz/:courseId"
+  element={
+    <RequireAuth>
+      <AppLayout>
+        <Quiz />
+      </AppLayout>
+    </RequireAuth>
+  }
+/>
 
         <Route path="*" element={<NotFound />} />
       </Routes>
