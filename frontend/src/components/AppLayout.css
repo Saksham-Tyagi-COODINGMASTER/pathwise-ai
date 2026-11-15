@@ -1,0 +1,321 @@
+
+/* =========================================
+   PATHWISE AI — SHARED SIDEBAR
+========================================= */
+
+.app-shell {
+  --sidebar-collapsed: 76px;
+  --sidebar-expanded: 245px;
+
+  display: grid;
+  grid-template-columns: var(--sidebar-collapsed) minmax(0, 1fr);
+  align-items: start;
+  min-height: 100vh;
+  background: #0b0f0c;
+position: relative;
+isolation: isolate;
+  transition: grid-template-columns 0.3s ease;
+  box-sizing: border-box;
+}
+.app-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      ellipse 60% 45% at 85% 0%,
+      rgba(197, 255, 69, 0.16),
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 50% 40% at 0% 55%,
+      rgba(115, 170, 255, 0.11),
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 60% 40% at 50% 100%,
+      rgba(197, 255, 69, 0.07),
+      transparent 70%
+    );
+}
+
+/* =========================================
+   SIDEBAR
+========================================= */
+
+.app-sidebar {
+  position: sticky;
+  top: 0;
+  align-self: start;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 100%;
+  min-width: 0;
+  height: 100vh;
+  box-sizing: border-box;
+
+  padding: 22px 12px;
+  overflow: hidden;
+  white-space: nowrap;
+
+  background: #10130f;
+  border-right: 1px solid rgba(197, 255, 69, 0.1);
+
+  z-index: 100;
+
+  transition:
+    padding 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Expand sidebar */
+
+.app-sidebar:hover,
+.app-sidebar:focus-within {
+  padding: 22px 18px;
+  box-shadow: 15px 0 45px rgba(0, 0, 0, 0.35);
+}
+
+.app-shell:has(.app-sidebar:hover),
+.app-shell:has(.app-sidebar:focus-within) {
+  grid-template-columns: var(--sidebar-expanded) minmax(0, 1fr);
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+.app-sidebar-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  min-height: 42px;
+  min-width: 0;
+
+  color: #f5f5f0;
+  text-decoration: none;
+}
+
+.app-logo-icon {
+  display: flex;
+  flex: 0 0 42px;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 13px;
+  background: #c5ff45;
+  color: #080908;
+
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.app-logo-text {
+  overflow: hidden;
+  opacity: 0;
+  font-size: 19px;
+  font-weight: 800;
+  transition: opacity 0.2s ease;
+}
+
+.app-logo-text span {
+  color: #c5ff45;
+}
+
+/* =========================================
+   WORKSPACE LABEL
+========================================= */
+
+.app-sidebar-label {
+  overflow: hidden;
+  color: #77776f;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 1.6px;
+
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.app-sidebar-nav {
+  display: grid;
+  gap: 7px;
+  width: 100%;
+}
+
+.app-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+
+  width: 100%;
+  min-width: 0;
+  min-height: 46px;
+  padding: 0 8px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+  background: transparent;
+  color: #a7a79f;
+
+  text-decoration: none;
+  text-align: left;
+  font: inherit;
+  font-size: 0;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    font-size 0.2s ease;
+}
+
+.app-nav-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.app-nav-link.active {
+  color: #c5ff45;
+  background: rgba(197, 255, 69, 0.09);
+  border-color: rgba(197, 255, 69, 0.18);
+}
+
+.app-nav-icon {
+  display: flex;
+  flex: 0 0 28px;
+  align-items: center;
+  justify-content: center;
+
+  width: 28px;
+  font-size: 19px;
+}
+
+.app-nav-text {
+  overflow: hidden;
+  opacity: 0;
+  font-size: 13px;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+/* =========================================
+   EXPANDED STATE
+========================================= */
+
+.app-sidebar:hover .app-logo-text,
+.app-sidebar:focus-within .app-logo-text,
+.app-sidebar:hover .app-sidebar-label,
+.app-sidebar:focus-within .app-sidebar-label,
+.app-sidebar:hover .app-nav-text,
+.app-sidebar:focus-within .app-nav-text {
+  opacity: 1;
+}
+
+.app-sidebar:hover .app-nav-link,
+.app-sidebar:focus-within .app-nav-link {
+  font-size: 13px;
+}
+
+/* =========================================
+   BOTTOM SECTION
+========================================= */
+
+.app-sidebar-bottom {
+  width: 100%;
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.app-main {
+  min-width: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 760px) {
+  .app-shell,
+  .app-shell:has(.app-sidebar:hover),
+  .app-shell:has(.app-sidebar:focus-within) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-sidebar,
+  .app-sidebar:hover,
+  .app-sidebar:focus-within {
+    position: relative;
+    top: auto;
+
+    width: 100%;
+    height: auto;
+    min-height: auto;
+
+    padding: 14px 16px;
+    overflow: visible;
+    box-shadow: none;
+  }
+
+  .app-sidebar-logo {
+    margin-bottom: 4px;
+  }
+
+  .app-logo-text,
+  .app-sidebar-label,
+  .app-nav-text {
+    opacity: 1;
+  }
+
+  .app-sidebar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+
+  .app-nav-link,
+  .app-sidebar:hover .app-nav-link,
+  .app-sidebar:focus-within .app-nav-link {
+    width: auto;
+    min-width: 44px;
+    font-size: 13px;
+  }
+
+  .app-nav-icon {
+    flex-basis: 28px;
+    width: 28px;
+  }
+
+  .app-sidebar-bottom {
+    margin-top: 0;
+  }
+}

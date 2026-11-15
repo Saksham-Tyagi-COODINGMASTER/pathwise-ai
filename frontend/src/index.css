@@ -1,0 +1,198 @@
+/* ========================================
+   PATHWISE AI — GLOBAL GLASS DESIGN SYSTEM
+   ======================================== */
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #f5f5f0;
+  background: #080908;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: dark;
+
+  /* Glass design tokens */
+  --glass-bg: rgba(255, 255, 255, 0.045);
+  --glass-bg-hover: rgba(255, 255, 255, 0.075);
+  --glass-bg-strong: rgba(18, 20, 18, 0.72);
+
+  --glass-border: rgba(255, 255, 255, 0.10);
+  --glass-border-hover: rgba(255, 255, 255, 0.18);
+
+  --glass-blur: 20px;
+  --glass-blur-strong: 30px;
+
+  --glass-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045);
+
+  --accent: #c5ff4a;
+}
+
+/* Global reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full viewport */
+
+html,
+body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100%;
+  background: #080908;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Root container */
+
+#root {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  text-align: left;
+  display: block;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ========================================
+   REUSABLE GLASS SURFACES
+   ======================================== */
+
+/* Standard translucent surface */
+
+.glass-surface {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+/* Larger panels and sidebars */
+
+.glass-panel {
+  background: var(--glass-bg-strong);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(var(--glass-blur-strong));
+  -webkit-backdrop-filter: blur(var(--glass-blur-strong));
+}
+
+/* Cards */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.085);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.glass-card:hover {
+  background: var(--glass-bg-hover);
+  border-color: var(--glass-border-hover);
+}
+
+/* Inputs and controls */
+
+.glass-control {
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  color: #f5f5f0;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.glass-control:hover,
+.glass-control:focus-within {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: var(--glass-border-hover);
+}
+
+/* Text selection */
+
+::selection {
+  background: var(--accent);
+  color: #080908;
+}
+
+/* Smooth scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Responsive typography */
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+/* Browser fallback */
+
+@supports not (backdrop-filter: blur(20px)) {
+  .glass-surface,
+  .glass-panel,
+  .glass-card,
+  .glass-control {
+    background: rgba(20, 22, 20, 0.94);
+  }
+}

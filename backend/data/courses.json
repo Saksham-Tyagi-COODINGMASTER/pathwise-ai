@@ -1,0 +1,62 @@
+[
+  {
+    "course_id": "CS101",
+    "course_name": "Introduction to Programming",
+    "department": "Computer Science",
+    "credits": 4,
+    "level": "Beginner",
+    "prerequisites": [],
+    "skills": ["Python", "Programming Logic"],
+    "learning_outcomes": [
+      "Understand variables and data types",
+      "Use conditional statements",
+      "Write loops and functions"
+    ],
+    "resources": [
+      {
+        "name": "Python Official Tutorial",
+        "url": "https://docs.python.org/3/tutorial/"
+      }
+    ]
+  },
+  {
+    "course_id": "CS102",
+    "course_name": "Data Structures and Algorithms",
+    "department": "Computer Science",
+    "credits": 4,
+    "level": "Intermediate",
+    "prerequisites": ["CS101"],
+    "skills": ["Data Structures", "Algorithms", "Problem Solving"],
+    "learning_outcomes": [
+      "Understand arrays and linked lists",
+      "Implement stacks and queues",
+      "Analyse algorithm complexity"
+    ],
+    "resources": [
+      {
+        "name": "MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu/"
+      }
+    ]
+  },
+  {
+    "course_id": "MA101",
+    "course_name": "Calculus",
+    "department": "Mathematics",
+    "credits": 4,
+    "level": "Beginner",
+    "prerequisites": [],
+    "skills": ["Calculus", "Mathematical Reasoning"],
+    "learning_outcomes": [
+      "Understand limits and continuity",
+      "Differentiate functions",
+      "Evaluate definite and indefinite integrals"
+    ],
+    "resources": [
+      {
+        "name": "Khan Academy Calculus",
+        "url": "https://www.khanacademy.org/math/calculus-1"
+      }
+    ]
+  }
+]

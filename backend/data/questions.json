@@ -1,0 +1,204 @@
+{
+  "CS101": [
+    {
+      "id": "CS101_Q1",
+      "skill": "Python",
+      "difficulty": "easy",
+      "question": "Which keyword is used to define a function in Python?",
+      "options": {
+        "A": "function",
+        "B": "def",
+        "C": "func",
+        "D": "define"
+      },
+      "correct_answer": "B",
+      "explanation": "Python uses the def keyword to define a function."
+    },
+    {
+      "id": "CS101_Q2",
+      "skill": "Programming Logic",
+      "difficulty": "easy",
+      "question": "What is the output of print(2 + 3 * 4)?",
+      "options": {
+        "A": "20",
+        "B": "14",
+        "C": "24",
+        "D": "9"
+      },
+      "correct_answer": "B",
+      "explanation": "Multiplication happens before addition, so 2 + 12 = 14."
+    },
+    {
+      "id": "CS101_Q3",
+      "skill": "Python",
+      "difficulty": "easy",
+      "question": "Which of the following creates a list in Python?",
+      "options": {
+        "A": "(1, 2, 3)",
+        "B": "{1, 2, 3}",
+        "C": "[1, 2, 3]",
+        "D": "<1, 2, 3>"
+      },
+      "correct_answer": "C",
+      "explanation": "Square brackets create a list. Parentheses create a tuple and curly braces create a set."
+    },
+    {
+      "id": "CS101_Q4",
+      "skill": "Programming Logic",
+      "difficulty": "medium",
+      "question": "How many times does the body of this loop run? for i in range(1, 6): print(i)",
+      "options": {
+        "A": "6",
+        "B": "4",
+        "C": "5",
+        "D": "1"
+      },
+      "correct_answer": "C",
+      "explanation": "range(1, 6) produces 1, 2, 3, 4, 5, so the loop body runs 5 times."
+    }
+  ],
+  "CS102": [
+    {
+      "id": "CS102_Q1",
+      "skill": "Data Structures",
+      "difficulty": "easy",
+      "question": "Which data structure follows the LIFO principle?",
+      "options": {
+        "A": "Queue",
+        "B": "Stack",
+        "C": "Linked List",
+        "D": "Tree"
+      },
+      "correct_answer": "B",
+      "explanation": "A stack follows Last In, First Out."
+    },
+    {
+      "id": "CS102_Q2",
+      "skill": "Algorithms",
+      "difficulty": "easy",
+      "question": "What is the time complexity of binary search on a sorted array of n elements?",
+      "options": {
+        "A": "O(n)",
+        "B": "O(n log n)",
+        "C": "O(log n)",
+        "D": "O(1)"
+      },
+      "correct_answer": "C",
+      "explanation": "Binary search halves the search range at every step, giving O(log n)."
+    },
+    {
+      "id": "CS102_Q3",
+      "skill": "Algorithms",
+      "difficulty": "medium",
+      "question": "Which sorting algorithm has an average time complexity of O(n log n)?",
+      "options": {
+        "A": "Bubble sort",
+        "B": "Merge sort",
+        "C": "Insertion sort",
+        "D": "Selection sort"
+      },
+      "correct_answer": "B",
+      "explanation": "Merge sort repeatedly splits and merges the data in O(n log n). Bubble, insertion and selection sort are O(n^2) on average."
+    },
+    {
+      "id": "CS102_Q4",
+      "skill": "Problem Solving",
+      "difficulty": "easy",
+      "question": "You need to check whether a word reads the same forwards and backwards. Which approach is the most direct?",
+      "options": {
+        "A": "Count the vowels",
+        "B": "Sort the letters",
+        "C": "Compare the word with its reverse",
+        "D": "Measure its length"
+      },
+      "correct_answer": "C",
+      "explanation": "A palindrome equals its own reverse, so comparing the word with its reverse solves the problem directly."
+    },
+    {
+      "id": "CS102_Q5",
+      "skill": "Data Structures",
+      "difficulty": "medium",
+      "question": "Which data structure gives average O(1) lookup by key?",
+      "options": {
+        "A": "Linked list",
+        "B": "Stack",
+        "C": "Queue",
+        "D": "Hash table"
+      },
+      "correct_answer": "D",
+      "explanation": "A hash table computes an index from the key, so lookups take O(1) on average."
+    }
+  ],
+  "MA101": [
+    {
+      "id": "MA101_Q1",
+      "skill": "Calculus",
+      "difficulty": "easy",
+      "question": "What is the derivative of x\u00b2 with respect to x?",
+      "options": {
+        "A": "x",
+        "B": "2x",
+        "C": "x\u00b3",
+        "D": "2"
+      },
+      "correct_answer": "B",
+      "explanation": "Using the power rule, d(x\u00b2)/dx = 2x."
+    },
+    {
+      "id": "MA101_Q2",
+      "skill": "Calculus",
+      "difficulty": "medium",
+      "question": "What is the derivative of sin(x)?",
+      "options": {
+        "A": "-cos(x)",
+        "B": "-sin(x)",
+        "C": "cos(x)",
+        "D": "tan(x)"
+      },
+      "correct_answer": "C",
+      "explanation": "The derivative of sin(x) is cos(x)."
+    },
+    {
+      "id": "MA101_Q3",
+      "skill": "Mathematical Reasoning",
+      "difficulty": "easy",
+      "question": "If f(x) = 3x + 2, what is f(4)?",
+      "options": {
+        "A": "11",
+        "B": "12",
+        "C": "10",
+        "D": "14"
+      },
+      "correct_answer": "D",
+      "explanation": "Substitute x = 4: 3(4) + 2 = 14."
+    },
+    {
+      "id": "MA101_Q4",
+      "skill": "Mathematical Reasoning",
+      "difficulty": "medium",
+      "question": "If a function is differentiable at a point, which statement must be true?",
+      "options": {
+        "A": "It is continuous at that point",
+        "B": "It is discontinuous at that point",
+        "C": "It is constant near that point",
+        "D": "It is linear everywhere"
+      },
+      "correct_answer": "A",
+      "explanation": "Differentiability at a point implies continuity there. The reverse is not always true."
+    },
+    {
+      "id": "MA101_Q5",
+      "skill": "Calculus",
+      "difficulty": "medium",
+      "question": "What is the integral of 2x dx?",
+      "options": {
+        "A": "2x\u00b2 + C",
+        "B": "x\u00b2 + C",
+        "C": "x + C",
+        "D": "2 + C"
+      },
+      "correct_answer": "B",
+      "explanation": "Integrating 2x gives x\u00b2 + C, since the derivative of x\u00b2 is 2x."
+    }
+  ]
+}

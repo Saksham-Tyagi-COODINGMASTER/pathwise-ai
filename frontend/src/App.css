@@ -1,0 +1,62 @@
+
+/* ========================================
+   PATHWISE AI — GLOBAL APP STYLES
+   ======================================== */
+
+/* Global reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full browser viewport */
+html {
+  width: 100%;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #080908;
+  color: #f5f5f0;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Remove Vite's default centered container */
+#root {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Images */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Buttons */
+button {
+  font: inherit;
+}
+
+/* Links */
+a {
+  color: inherit;
+}
+
+/* Selection */
+::selection {
+  background: #c5ff4a;
+  color: #080908;
+}

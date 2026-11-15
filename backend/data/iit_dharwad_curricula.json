@@ -1,0 +1,3997 @@
+{
+  "institutes": [
+    {
+      "name": "Indian Institute of Technology Dharwad",
+      "code": "IIT_DHARWAD",
+      "degrees": [
+        {
+          "name": "B.Tech",
+          "branches": [
+            "CSE",
+            "ECE",
+            "EEE",
+            "EE",
+            "Engineering Physics",
+            "Mathematics and Computing",
+            "Mechanical Engineering",
+            "Chemical and Biochemical Engineering",
+            "Civil and Infrastructure Engineering"
+          ]
+        }
+      ]
+    }
+  ],
+  "curricula": {
+    "CSE": {
+      "branch": "Computer Science and Engineering",
+      "curriculum_version": "2025",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "CSE-CC-NSO",
+          "code": "CC",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "CH101T",
+          "code": "CH101T",
+          "name": "Fundamental Concepts and Applications of Chemistry",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "EE101T",
+          "code": "EE101T",
+          "name": "Introduction to Electrical Systems and Electronics",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "MA108T",
+          "code": "MA108T",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified"
+        },
+        {
+          "course_key": "ME101L",
+          "code": "ME101L",
+          "name": "Hands on Engineering Lab",
+          "semester": 1,
+          "credits": 3,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101L",
+          "code": "CS101L",
+          "name": "Data Structures and Algorithms Laboratory",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS101T",
+          "code": "CS101T",
+          "name": "Data Structures and Algorithms",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS202T",
+          "code": "CS202T",
+          "name": "Discrete Structures",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "EE101L",
+          "code": "EE101L",
+          "name": "Digital Circuits Lab",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "EE103T",
+          "code": "EE103T",
+          "name": "Digital Systems",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "MA109T",
+          "code": "MA109T",
+          "name": "Linear Algebra and Differential Equations",
+          "semester": 2,
+          "credits": 9,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS201C",
+          "code": "CS201C",
+          "name": "Software Systems Lab",
+          "semester": 3,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "CSE 2025 B.Tech_.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [6, 9]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "CS201T",
+          "code": "CS201T",
+          "name": "Automata Theory",
+          "semester": 3,
+          "credits": 9,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS205",
+          "code": "CS205",
+          "name": "Design and analysis of algorithms",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "EE205T",
+          "code": "EE205T",
+          "name": "Introduction to Probability (1st Half)",
+          "semester": 3,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "CSE 2025 B.Tech_.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [3, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "EE207T",
+          "code": "EE207T",
+          "name": "Data Analysis (2nd Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "PH101T",
+          "code": "PH101T",
+          "name": "Quantum Physics and Applications",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental Studies",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS201L",
+          "code": "CS201L",
+          "name": "Artificial Intelligence lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS202L",
+          "code": "CS202L",
+          "name": "Data Bases and Information Systems Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS204T",
+          "code": "CS204T",
+          "name": "Artificial intelligence",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS205T",
+          "code": "CS205T",
+          "name": "Data Bases and Information Systems",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS301L",
+          "code": "CS301L",
+          "name": "Computer Architecture lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS501C",
+          "code": "CS501C",
+          "name": "Computer Architecture",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CSE-S5-SLOT-39",
+          "code": null,
+          "name": "Elective",
+          "semester": 5,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "BB101T",
+          "code": "BB101T",
+          "name": "Introduction to Modern Biology",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS302L",
+          "code": "CS302L",
+          "name": "Operating systems lab",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS303L",
+          "code": "CS303L",
+          "name": "Computer Networks lab",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS303T",
+          "code": "CS303T",
+          "name": "Operating systems",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS305T",
+          "code": "CS305T",
+          "name": "Computer Networks",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "HS201T",
+          "code": "HS201T",
+          "name": "Economics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CSE-S6-SLOT-40",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 24,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CS304L",
+          "code": "CS304L",
+          "name": "Compilers lab",
+          "semester": 6,
+          "credits": 3,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CS304T",
+          "code": "CS304T",
+          "name": "Compilers",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "EE101O",
+          "code": "EE101O",
+          "name": "Formal Communication No Graded",
+          "semester": 6,
+          "credits": 2,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "EE301O",
+          "code": "EE301O",
+          "name": "Technical Writing (P/NP) No Graded",
+          "semester": 6,
+          "credits": 2,
+          "status": "verified",
+          "source": "CSE 2025 B.Tech_.txt"
+        },
+        {
+          "course_key": "CSE-S7-SLOT-37",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 30,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CSE-S8-SLOT-38",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        }
+      ]
+    },
+    "ECE": {
+      "branch": "Electronics and Communication Engineering",
+      "curriculum_version": "2025",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "ECE-CC-NSO",
+          "code": "CC",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "EE101O",
+          "code": "EE101O",
+          "name": "Formal Communications",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "EE101T",
+          "code": "EE101T",
+          "name": "Introduction to Electrical Systems and Electronics",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "MA108T",
+          "code": "MA108T",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101T",
+          "code": "PH101T",
+          "name": "Quantum Physics and Applications",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "EE101L",
+          "code": "EE101L",
+          "name": "Digital Circuits Lab",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE103T",
+          "code": "EE103T",
+          "name": "Digital Systems",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE104T",
+          "code": "EE104T",
+          "name": "Network Theory",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE105T",
+          "code": "EE105T",
+          "name": "Electronic Devices (2nd Half)",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "MA109T",
+          "code": "MA109T",
+          "name": "Linear Algebra and Differential Equations",
+          "semester": 2,
+          "credits": 9,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "ME101C",
+          "code": "ME101C",
+          "name": "Engineeing Graphics Laboratory",
+          "semester": 2,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "ECE Index 2025.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [5, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "ME101L",
+          "code": "ME101L",
+          "name": "Hands on Engineering Laboratory",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE201L",
+          "code": "EE201L",
+          "name": "Devices and Circuit Lab",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE201T",
+          "code": "EE201T",
+          "name": "Introduction to Analog Circuits (1st Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE204T",
+          "code": "EE204T",
+          "name": "Signals and Systems",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE205T",
+          "code": "EE205T",
+          "name": "Introduction to Probability (1st Half)",
+          "semester": 3,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "ECE Index 2025.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [3, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "EE207T",
+          "code": "EE207T",
+          "name": "Data Analysis (2nd Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "HS201T",
+          "code": "HS201T",
+          "name": "Economics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "MA110T",
+          "code": "MA110T",
+          "name": "Complex Analysis and Differential Equations II",
+          "semester": 3,
+          "credits": 9,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "PH102T",
+          "code": "PH102T",
+          "name": "Electricity and Magnetism 6",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "CS101T",
+          "code": "CS101T",
+          "name": "Data Structures and Algorithms",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "CS602L",
+          "code": "CS602L",
+          "name": "Data Structures and Algorithms Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE202L",
+          "code": "EE202L",
+          "name": "Electrical Mechines and Power Electronics Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE202T",
+          "code": "EE202T",
+          "name": "Introduction to Electrical Machines (1st Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE203L",
+          "code": "EE203L",
+          "name": "Control Systems Engineering Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE203T",
+          "code": "EE203T",
+          "name": "Introduction to Power Electronics (1st Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE206T",
+          "code": "EE206T",
+          "name": "Introduction to Power Systems (2nd Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE209T",
+          "code": "EE209T",
+          "name": "Introduction to modern communication systems",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE239",
+          "code": "EE239",
+          "name": "Control Systems Engineering",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "ECE-S5-SLOT-41",
+          "code": null,
+          "name": "Elective",
+          "semester": 5,
+          "credits": 18,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "EE301T",
+          "code": "EE301T",
+          "name": "Microprocessors and Microcontrollers",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE302C",
+          "code": "EE302C",
+          "name": "Fundamentals of Digital Signal Processing",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt",
+          "note": "2025 curriculum value; the EE 2023 historical curriculum is retained separately."
+        },
+        {
+          "course_key": "EE302L",
+          "code": "EE302L",
+          "name": "Microprocessors and Microcontrollers Lab",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "MA412T",
+          "code": "MA412T",
+          "name": "Numerical Analysis",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "ECE-S6-SLOT-42",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 24,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental Studies",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE301L",
+          "code": "EE301L",
+          "name": "Electronic Design Laboratory",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "EE301O",
+          "code": "EE301O",
+          "name": "Technical Writing",
+          "semester": 6,
+          "credits": 2,
+          "status": "verified",
+          "source": "ECE Index 2025.txt"
+        },
+        {
+          "course_key": "ECE-S7-SLOT-39",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 30,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "ECE-S8-SLOT-40",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 18,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        }
+      ]
+    },
+    "EEE": {
+      "branch": "Electrical and Electronics Engineering",
+      "curriculum_version": "2025-pending-confirmation",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "EEE-CC-NSO",
+          "code": "CC",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "EE101O",
+          "code": "EE101O",
+          "name": "Formal Communications",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "EE101T",
+          "code": "EE101T",
+          "name": "Introduction to Electrical Systems and Electronics",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "MA108T",
+          "code": "MA108T",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101T",
+          "code": "PH101T",
+          "name": "Quantum Physics and Applications",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "EE101L",
+          "code": "EE101L",
+          "name": "Digital Circuits Lab",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE104T",
+          "code": "EE104T",
+          "name": "Network Theory",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE105T",
+          "code": "EE105T",
+          "name": "Electronic Devices (2nd Half)",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE204",
+          "code": "EE204",
+          "name": "Digital Systems",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "ME101C",
+          "code": "ME101C",
+          "name": "Engineering Graphics Lab",
+          "semester": 2,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "EEE.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [5, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "ME101L",
+          "code": "ME101L",
+          "name": "Hands on Engineering Lab",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "NO108",
+          "code": "NO108",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 2,
+          "credits": 2,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE201L",
+          "code": "EE201L",
+          "name": "Devices and Circuit Lab",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE201T",
+          "code": "EE201T",
+          "name": "Introduction to Analog Circuits (1st Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE204T",
+          "code": "EE204T",
+          "name": "Signals and Systems",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE205T",
+          "code": "EE205T",
+          "name": "Introduction to Probability",
+          "semester": 3,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "EEE.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [3, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "EE207T",
+          "code": "EE207T",
+          "name": "Data Analysis (2nd Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "HS201T",
+          "code": "HS201T",
+          "name": "Economics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "MA110T",
+          "code": "MA110T",
+          "name": "Complex Analysis and Differential Equations II",
+          "semester": 3,
+          "credits": 9,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "PH102T",
+          "code": "PH102T",
+          "name": "Electricity and Magnetism 6",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "CS101L",
+          "code": "CS101L",
+          "name": "Data Structures and Algorithms Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "CS101T",
+          "code": "CS101T",
+          "name": "Data Structures and Algorithms",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "CS602L",
+          "code": "CS602L",
+          "name": "Data Structures and Algorithms Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE202L",
+          "code": "EE202L",
+          "name": "Electrical Mechines and Power Electronics Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE202T",
+          "code": "EE202T",
+          "name": "Introduction to Electrical Machines (1st Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE203L",
+          "code": "EE203L",
+          "name": "Control Systems Engineering Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE203T",
+          "code": "EE203T",
+          "name": "Introduction to Power Electronics (1st Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE206T",
+          "code": "EE206T",
+          "name": "Introduction to Power Systems (2nd Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE208T",
+          "code": "EE208T",
+          "name": "Control Systems Engineering",
+          "semester": 4,
+          "credits": 6,
+          "status": "pending_verification",
+          "source": "EEE.txt",
+          "note": "EEE source contains two Semester IV table variants; confirm the applicable version."
+        },
+        {
+          "course_key": "EE209T",
+          "code": "EE209T",
+          "name": "Introduction to modern communication systems",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE239",
+          "code": "EE239",
+          "name": "Control Systems Engineering",
+          "semester": 4,
+          "credits": 6,
+          "status": "pending_verification",
+          "source": "EEE.txt",
+          "note": "EEE source contains two Semester IV table variants; confirm the applicable version."
+        },
+        {
+          "course_key": "EEE-S5-SLOT-43",
+          "code": null,
+          "name": "Elective",
+          "semester": 5,
+          "credits": 18,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "EE301T",
+          "code": "EE301T",
+          "name": "Microprocessors and Microcontrollers",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE302C",
+          "code": "EE302C",
+          "name": "Fundamentals of Digital Signal Processing",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt",
+          "note": "2025 curriculum value; the EE 2023 historical curriculum is retained separately."
+        },
+        {
+          "course_key": "EE302L",
+          "code": "EE302L",
+          "name": "Microprocessors and Microcontrollers Lab",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "MA412T",
+          "code": "MA412T",
+          "name": "Numerical Analysis",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EEE-S6-SLOT-44",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 24,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental Studies",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE301L",
+          "code": "EE301L",
+          "name": "Electronic Design Laboratory",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EE301O",
+          "code": "EE301O",
+          "name": "Technical Writing",
+          "semester": 6,
+          "credits": 2,
+          "status": "verified",
+          "source": "EEE.txt"
+        },
+        {
+          "course_key": "EEE-S7-SLOT-41",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 30,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "EEE-S8-SLOT-42",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 18,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        }
+      ]
+    },
+    "EE": {
+      "branch": "Electrical Engineering",
+      "curriculum_version": "newer-version-pending-source",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "EE-CC-NSO",
+          "code": "CC",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "EE101O",
+          "code": "EE101O",
+          "name": "Formal Communications",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "EE101T",
+          "code": "EE101T",
+          "name": "Introduction to Electrical Systems and Electronics",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "MA108T",
+          "code": "MA108T",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101T",
+          "code": "PH101T",
+          "name": "Quantum Physics and Applications",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        }
+      ]
+    },
+    "Engineering Physics": {
+      "branch": "Engineering Physics",
+      "curriculum_version": "2025",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "CY101T",
+          "code": "CY101T",
+          "name": "Fundamental Concepts &Applications Of Chemistry",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "EE101T",
+          "code": "EE101T",
+          "name": "Introduction to electrical systems and Electronics",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "MA108T",
+          "code": "MA108T",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified"
+        },
+        {
+          "course_key": "EP-CC-NSO",
+          "code": "NO107/NO105/NO106/NO108",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101L",
+          "code": "PH101L",
+          "name": "Hands on Science Laboratory - 1",
+          "semester": 1,
+          "credits": 3,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101T",
+          "code": "PH101T",
+          "name": "Quantum Physics and Applications",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101L",
+          "code": "CS101L",
+          "name": "Data Structure & Algorithms Lab",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "CS101T",
+          "code": "CS101T",
+          "name": "Data Structures and Algorithms",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "MA109T",
+          "code": "MA109T",
+          "name": "Linear Algebra and Diffrential Equations",
+          "semester": 2,
+          "credits": 9,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "ME101L",
+          "code": "ME101L",
+          "name": "Hands on Engineering Laboratory",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "ME102T",
+          "code": "ME102T",
+          "name": "Engineering Graphics",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "ME206T",
+          "code": "ME206T",
+          "name": "Thermodynamics",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "NO108",
+          "code": "NO108",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 2,
+          "credits": 2,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH102T",
+          "code": "PH102T",
+          "name": "Electricity and Magnetism",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "EE204T",
+          "code": "EE204T",
+          "name": "Signals and Systems",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "EE205T",
+          "code": "EE205T",
+          "name": "Introduction to Probability (Pre mid-sem)",
+          "semester": 3,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "Engineering Physics.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [3, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "EE207T",
+          "code": "EE207T",
+          "name": "Data Analysis (Post MId Sem)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "HS201",
+          "code": "HS201",
+          "name": "Economics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "ME201T",
+          "code": "ME201T",
+          "name": "Engineering Machines",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH201L",
+          "code": "PH201L",
+          "name": "Introductory Physics Laboratory",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH302T",
+          "code": "PH302T",
+          "name": "Classical Mechanics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH303T",
+          "code": "PH303T",
+          "name": "Quantum Mechanics - I",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "CS301L",
+          "code": "CS301L",
+          "name": "Computer Architecture Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "CS302T",
+          "code": "CS302T",
+          "name": "Computer Architecture",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "EE101L",
+          "code": "EE101L",
+          "name": "Digital Circuits Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "EE103T",
+          "code": "EE103T",
+          "name": "Digital Systems",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH301L",
+          "code": "PH301L",
+          "name": "General Physics Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH304T",
+          "code": "PH304T",
+          "name": "Mathematical Physics",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH305T",
+          "code": "PH305T",
+          "name": "Statistical Physics",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "Engineering Physics-S5-SLOT-46",
+          "code": null,
+          "name": "Elective",
+          "semester": 5,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "EE302C",
+          "code": "EE302C",
+          "name": "Fundamentals of Digital Signal Processing",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt",
+          "note": "2025 curriculum value; the EE 2023 historical curriculum is retained separately."
+        },
+        {
+          "course_key": "ME203T",
+          "code": "ME203T",
+          "name": "Fluid Mechanics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH301T",
+          "code": "PH301T",
+          "name": "Electrodynamics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH401L",
+          "code": "PH401L",
+          "name": "Advanced Physics Laboratory",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH402L",
+          "code": "PH402L",
+          "name": "Electronics Loboratory",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH420T",
+          "code": "PH420T",
+          "name": "Electronics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "Engineering Physics-S6-SLOT-47",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental Studies",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "CS201L",
+          "code": "CS201L",
+          "name": "Artificial Inteligence Lab",
+          "semester": 6,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "CS204T",
+          "code": "CS204T",
+          "name": "Artificial Inteligence",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "ME207L",
+          "code": "ME207L",
+          "name": "Mechanics and Measurement Lab",
+          "semester": 6,
+          "credits": 3,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH401T",
+          "code": "PH401T",
+          "name": "Quantum Mechanics-II",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH402T",
+          "code": "PH402T",
+          "name": "Condensed Matter Physics",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "Engineering Physics-S7-SLOT-48",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Engineering Physics-S7-SLOT-49",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CS601S",
+          "code": "CS601S",
+          "name": "Seminar",
+          "semester": 7,
+          "credits": 4,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "PH501C",
+          "code": "PH501C",
+          "name": "Numerical Methods",
+          "semester": 7,
+          "credits": 6,
+          "status": "verified",
+          "source": "Engineering Physics.txt"
+        },
+        {
+          "course_key": "Engineering Physics-S8-SLOT-50",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Engineering Physics-S8-SLOT-51",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Engineering Physics-S8-SLOT-52",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        }
+      ]
+    },
+    "Mathematics and Computing": {
+      "branch": "Mathematics and Computing",
+      "curriculum_version": "2025",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "EE101T",
+          "code": "EE101T",
+          "name": "Introduction to Electrical Systems and Electronic Circuits",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "MA108T",
+          "code": "MA108T",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified"
+        },
+        {
+          "course_key": "ME101L",
+          "code": "ME101L",
+          "name": "Hands on Engineering Laboratory",
+          "semester": 1,
+          "credits": 3,
+          "status": "verified"
+        },
+        {
+          "course_key": "MC-CC-NSO",
+          "code": "NO",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101T",
+          "code": "PH101T",
+          "name": "Quantum Physics and Applications",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental studies",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS101L",
+          "code": "CS101L",
+          "name": "Data Structures and Algorithms Laboratory",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS101T",
+          "code": "CS101T",
+          "name": "Data Structures and Algorithms",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS202T",
+          "code": "CS202T",
+          "name": "Discrete Structures",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "EE103T",
+          "code": "EE103T",
+          "name": "Digital Systems",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA109T",
+          "code": "MA109T",
+          "name": "Linear Algebra and Diffrential Equations",
+          "semester": 2,
+          "credits": 9,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS201C",
+          "code": "CS201C",
+          "name": "Software Systems Lab",
+          "semester": 3,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "mathematics & Computing.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [6, 9]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "CS201T",
+          "code": "CS201T",
+          "name": "Automata Theory",
+          "semester": 3,
+          "credits": 9,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS203T",
+          "code": "CS203T",
+          "name": "Design and Analysis of Algorithms",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS407T",
+          "code": "CS407T",
+          "name": "Mathematics for Data Science",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA401T",
+          "code": "MA401T",
+          "name": "Introduction to probability Theory",
+          "semester": 3,
+          "credits": 9,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS201L",
+          "code": "CS201L",
+          "name": "Artificial Intelligence Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS204T",
+          "code": "CS204T",
+          "name": "Artificial Intelligence",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS301L",
+          "code": "CS301L",
+          "name": "Computer Architecture Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "CS302T",
+          "code": "CS302T",
+          "name": "Computer Architecture",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA210",
+          "code": "MA210",
+          "name": "Statistics",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA302T",
+          "code": "MA302T",
+          "name": "Real Analysis",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA402T",
+          "code": "MA402T",
+          "name": "Statistics",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "Mathematics and Computing-S5-SLOT-41",
+          "code": null,
+          "name": "Elective",
+          "semester": 5,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mathematics and Computing-S5-SLOT-42",
+          "code": null,
+          "name": "Elective",
+          "semester": 5,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CS403T",
+          "code": "CS403T",
+          "name": "Introduction to Graph Theory",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "HS201",
+          "code": "HS201",
+          "name": "Economics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA404T",
+          "code": "MA404T",
+          "name": "Introduction to Mathematical Finance I",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA407T",
+          "code": "MA407T",
+          "name": "Stochastic Models",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "Mathematics and Computing-S6-SLOT-43",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mathematics and Computing-S6-SLOT-44",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "MA107T",
+          "code": "MA107T",
+          "name": "Advanced Linear Algebra",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA303T",
+          "code": "MA303T",
+          "name": "Group Theory",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA408T",
+          "code": "MA408T",
+          "name": "Introduction to Mathematical Finance",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "MA409T",
+          "code": "MA409T",
+          "name": "numerical Linear Algebra",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "mathematics & Computing.txt"
+        },
+        {
+          "course_key": "Mathematics and Computing-S7-SLOT-34",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mathematics and Computing-S7-SLOT-35",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mathematics and Computing-S7-SLOT-36",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mathematics and Computing-S7-SLOT-37",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mathematics and Computing-S8-SLOT-38",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mathematics and Computing-S8-SLOT-39",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mathematics and Computing-S8-SLOT-40",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        }
+      ]
+    },
+    "Mechanical Engineering": {
+      "branch": "Mechanical Engineering",
+      "curriculum_version": "2026-source-version-unconfirmed",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "ME-FORMAL-COMM",
+          "code": null,
+          "name": "Formal and Technical communications",
+          "semester": 1,
+          "credits": 2,
+          "status": "pending_verification",
+          "note": "Course code absent in source."
+        },
+        {
+          "course_key": "ME-INTRO-MECH",
+          "code": null,
+          "name": "Introduction to Mechanical Engineering",
+          "semester": 1,
+          "credits": 6,
+          "status": "pending_verification",
+          "note": "Course code absent in source."
+        },
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "note": "Pass/No Pass course; no numeric credit value is assigned.",
+          "credit_type": "Pass/No Pass"
+        },
+        {
+          "course_key": "MA-1XX-LA",
+          "code": "MA 1XX",
+          "name": "Linear Algebra: Theory and numerics",
+          "semester": 1,
+          "credits": 6,
+          "status": "pending_verification",
+          "note": "Placeholder code in source; not normalized to MA108T because this is a different course title."
+        },
+        {
+          "course_key": "ME101L",
+          "code": "ME101L",
+          "name": "hands on Engineering Laboratory",
+          "semester": 1,
+          "credits": 3,
+          "status": "verified"
+        },
+        {
+          "course_key": "ME201T",
+          "code": "ME201T",
+          "name": "Engineering Mechanics",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "ME-CC-NSO",
+          "code": "NO107/NO105/NO106/NO108",
+          "name": "NSO/NSS/NCC/NCA",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101L",
+          "code": "CS101L",
+          "name": "Data Structure and Algorithms laboratory",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "CS101T",
+          "code": "CS101T",
+          "name": "Data Structure and Algorithms",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME204T",
+          "code": "ME204T",
+          "name": "Manufacturing Processes-I",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME206T",
+          "code": "ME206T",
+          "name": "Therodynamics",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME201L",
+          "code": "ME201L",
+          "name": "manufacturing Processes and Metrology Laboratory",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME202T",
+          "code": "ME202T",
+          "name": "Engineering Materials",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME203",
+          "code": "ME203",
+          "name": "Fluid Mechanics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME205T",
+          "code": "ME205T",
+          "name": "Mechanics of Materials",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME202L",
+          "code": "ME202L",
+          "name": "Fluid Mechnics Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME204L",
+          "code": "ME204L",
+          "name": "Solid Mechanics Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME207T",
+          "code": "ME207T",
+          "name": "Mechanical Measurements",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME209T",
+          "code": "ME209T",
+          "name": "Heat Transfer",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME211T",
+          "code": "ME211T",
+          "name": "Manufacturing Processes-II",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME304T",
+          "code": "ME304T",
+          "name": "Theory of Machines",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "EE205T",
+          "code": "EE205T",
+          "name": "Introduction to Probability (1st half)",
+          "semester": 5,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "Mechanical Engineering.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [3, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "EE207T",
+          "code": "EE207T",
+          "name": "Introduction to Data Analysis",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "HS201T",
+          "code": "HS201T",
+          "name": "Economics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME203L",
+          "code": "ME203L",
+          "name": "Mechanical Measurement Laboratory",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME205L",
+          "code": "ME205L",
+          "name": "Heat Transfer Laboratory",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME206L",
+          "code": "ME206L",
+          "name": "Manufacturing Processes Laboratory",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME301T",
+          "code": "ME301T",
+          "name": "Applied Thermodynamics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME306T",
+          "code": "ME306T",
+          "name": "Design of Mechine Elements",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "Mechanical Engineering-S6-SLOT-35",
+          "code": null,
+          "name": "Thermal Engineering (new)",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Source specifies a credit-bearing elective/project slot, not a fixed course. Configure the selected course before marking completion."
+        },
+        {
+          "course_key": "Mechanical Engineering-S6-SLOT-36",
+          "code": null,
+          "name": "Operations Research and Industrial Engineering",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Source specifies a credit-bearing elective/project slot, not a fixed course. Configure the selected course before marking completion."
+        },
+        {
+          "course_key": "Mechanical Engineering-S6-SLOT-37",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mechanical Engineering-S6-SLOT-38",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental Studies",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME208L",
+          "code": "ME208L",
+          "name": "Control Systems and Laboratory",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME301L",
+          "code": "ME301L",
+          "name": "Kinematics and Dynamics of Machinery Lab",
+          "semester": 6,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "ME302L",
+          "code": "ME302L",
+          "name": "Applied Thermodynamics Laboratory",
+          "semester": 6,
+          "credits": 3,
+          "status": "verified",
+          "source": "Mechanical Engineering.txt"
+        },
+        {
+          "course_key": "Mechanical Engineering-S7-SLOT-39",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mechanical Engineering-S7-SLOT-40",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mechanical Engineering-S7-SLOT-41",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mechanical Engineering-S8-SLOT-42",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mechanical Engineering-S8-SLOT-43",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Mechanical Engineering-S8-SLOT-44",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        }
+      ]
+    },
+    "Chemical and Biochemical Engineering": {
+      "branch": "Chemical and Biochemical Engineering",
+      "curriculum_version": "2026",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "BB101T",
+          "code": "BB101T",
+          "name": "Introduction to Modern Biology",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "CL-CC",
+          "code": "CC",
+          "name": "NCC/NSO/NCA/NSS",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "CH101T",
+          "code": "CH101T",
+          "name": "Fundamental Concepts & Applications of Chemistry",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "MA108T",
+          "code": "MA108T",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101L",
+          "code": "PH101L",
+          "name": "Hands on Science Laboratory – I",
+          "semester": 1,
+          "credits": 3,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101T",
+          "code": "PH101T",
+          "name": "Quantum Physics and Applications",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "BB201T",
+          "code": "BB201T",
+          "name": "Biomolecules",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CH201T",
+          "code": "CH201T",
+          "name": "Organic Chemisrty",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL101T",
+          "code": "CL101T",
+          "name": "Introduction to Chemical Engineering",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "ME101C",
+          "code": "ME101C",
+          "name": "Engineering Graphics Lab",
+          "semester": 2,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [5, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "ME101L",
+          "code": "ME101L",
+          "name": "Hands on Engineering Lab",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "BB401T",
+          "code": "BB401T",
+          "name": "Basics of Cell Biology and Genetics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL203T",
+          "code": "CL203T",
+          "name": "Introduction to Chemical Engineering Thermodynamics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL204T",
+          "code": "CL204T",
+          "name": "Fluid Mechanics and Mechanical Operations",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL205T",
+          "code": "CL205T",
+          "name": "Heat Transfer for Chemical Engineers",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "EE205T",
+          "code": "EE205T",
+          "name": "Introduction to Probability",
+          "semester": 3,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [3, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "EE207T",
+          "code": "EE207T",
+          "name": "Data analysis",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "ME201T",
+          "code": "ME201T",
+          "name": "Engineering Mechanics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "BB201L",
+          "code": "BB201L",
+          "name": "Biology Lab I",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "BB403T",
+          "code": "BB403T",
+          "name": "Biophysics",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL201L",
+          "code": "CL201L",
+          "name": "Chemical Engineering lab 1 (Thermodynamics and fluid mechanics)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL201T",
+          "code": "CL201T",
+          "name": "Reaction Engineering",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL202T",
+          "code": "CL202T",
+          "name": "Mass Transfer",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL206T",
+          "code": "CL206T",
+          "name": "Materials Science for Chemical Engineers",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CS201L",
+          "code": "CS201L",
+          "name": "Artificial Intelligence lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CS204T",
+          "code": "CS204T",
+          "name": "Artificial Intelligence",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL301L",
+          "code": "CL301L",
+          "name": "Chemical Engineering Lab II",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL302T",
+          "code": "CL302T",
+          "name": "Process Equipment Design and Economics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL304T",
+          "code": "CL304T",
+          "name": "Applications of Mass Transfer",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL307T",
+          "code": "CL307T",
+          "name": "Process Dynamics and Control",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL308T",
+          "code": "CL308T",
+          "name": "Advanced Chemical Reaction Engineering",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "HS201T",
+          "code": "HS201T",
+          "name": "Economics",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "Chemical and Biochemical Engineering-S6-SLOT-43",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental Studies",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL301C",
+          "code": "CL301C",
+          "name": "Numerical Method in Chemical Engineering",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL301T",
+          "code": "CL301T",
+          "name": "Introduction to Transport Phenomena",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL302L",
+          "code": "CL302L",
+          "name": "Chemical Engineering Lab III",
+          "semester": 6,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL303L",
+          "code": "CL303L",
+          "name": "Chemical Engineering Lab IV",
+          "semester": 6,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL306T",
+          "code": "CL306T",
+          "name": "AI in Chemical Engineering",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "Chemical and Biochemical Engineering-S7-SLOT-44",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Chemical and Biochemical Engineering-S7-SLOT-45",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Chemical and Biochemical Engineering-S7-SLOT-46",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CL401S",
+          "code": "CL401S",
+          "name": "Scientific Presentation",
+          "semester": 7,
+          "credits": 3,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "CL405T",
+          "code": "CL405T",
+          "name": "Bio Process Engineering",
+          "semester": 7,
+          "credits": 6,
+          "status": "verified",
+          "source": "Chemical and Biochemical Engineering.docx 2026.txt"
+        },
+        {
+          "course_key": "Chemical and Biochemical Engineering-S8-SLOT-47",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Chemical and Biochemical Engineering-S8-SLOT-48",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Chemical and Biochemical Engineering-S8-SLOT-49",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Chemical and Biochemical Engineering-S8-SLOT-50",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        }
+      ]
+    },
+    "Civil and Infrastructure Engineering": {
+      "branch": "Civil and Infrastructure Engineering",
+      "curriculum_version": "2026",
+      "source_status": "source_tables_imported_semesters_1_to_8; see per-course verification status; code-less elective blocks may require manual configuration",
+      "courses": [
+        {
+          "course_key": "CH101T",
+          "code": "CH101T",
+          "name": "Fundamental Concepts & Applications of Chemistry",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "CS101C",
+          "code": "CS101C",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified",
+          "credit_resolution": "9 credits; canonical value confirmed by user."
+        },
+        {
+          "course_key": "HS101T",
+          "code": "HS101T",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "MA108T",
+          "code": "MA108T",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 9,
+          "status": "verified"
+        },
+        {
+          "course_key": "ME201T",
+          "code": "ME201T",
+          "name": "Engineering Mechanics",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "CE-NSO",
+          "code": "NO 101/NO 103",
+          "name": "National Sports Organization",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified"
+        },
+        {
+          "course_key": "PH101T",
+          "code": "PH101T",
+          "name": "Quantum Physics and Applications",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified"
+        },
+        {
+          "course_key": "CE101T",
+          "code": "CE101T",
+          "name": "Introduction to Civil Engineering",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental Studies",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CS101L",
+          "code": "CS101L",
+          "name": "Data Structures and Algorithms Laboratory",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CS101T",
+          "code": "CS101T",
+          "name": "Data Structures and Algorithms",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "MA109T",
+          "code": "MA109T",
+          "name": "Linear Algebra and Differential Equations",
+          "semester": 2,
+          "credits": 9,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "ME101C",
+          "code": "ME101C",
+          "name": "Engineering Graphics Lab",
+          "semester": 2,
+          "credits": null,
+          "status": "pending_verification",
+          "source": "Civil 2026. Index.txt",
+          "note": "Official source PDFs show conflicting credit values for this code: [5, 6]. Credit withheld pending verification."
+        },
+        {
+          "course_key": "ME101L",
+          "code": "ME101L",
+          "name": "Hands-on Engineering Lab",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE203L",
+          "code": "CE203L",
+          "name": "Building Drawing Practice",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE204L",
+          "code": "CE204L",
+          "name": "Construction Materials Laboratory",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE205T",
+          "code": "CE205T",
+          "name": "Building Materials and Construction",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE206T",
+          "code": "CE206T",
+          "name": "Sustainable Infrastructure Planning",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "HS201T",
+          "code": "HS201T",
+          "name": "Economics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "ME203T",
+          "code": "ME203T",
+          "name": "Fluid Mechanics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "ME205T",
+          "code": "ME205T",
+          "name": "Mechanics of Materials",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE202L",
+          "code": "CE202L",
+          "name": "Surveying and Geomatics Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE202T",
+          "code": "CE202T",
+          "name": "Surveying and Geomatics",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE203T",
+          "code": "CE203T",
+          "name": "Structural Analysis",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE204T",
+          "code": "CE204T",
+          "name": "Water Resources Engineering",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE207T",
+          "code": "CE207T",
+          "name": "Hydraulics and hydraulic Machinery",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "ME202L",
+          "code": "ME202L",
+          "name": "Fluid Mechanics Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "ME204L",
+          "code": "ME204L",
+          "name": "Solid Mechanics Laboratory",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE302L",
+          "code": "CE302L",
+          "name": "Transportation Engineering Laboratory",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE302T",
+          "code": "CE302T",
+          "name": "Design of Concrete Structures",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE303L",
+          "code": "CE303L",
+          "name": "Geotechnical Engineering Laboratory",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE303T",
+          "code": "CE303T",
+          "name": "Geotechnical Engineering",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE304L",
+          "code": "CE304L",
+          "name": "Environmental Engineering Laboratory",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE304T",
+          "code": "CE304T",
+          "name": "Transportation Engineering",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE305T",
+          "code": "CE305T",
+          "name": "Environmental Engineering",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "Civil and Infrastructure Engineering-S6-SLOT-44",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Civil and Infrastructure Engineering-S6-SLOT-45",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CE306L",
+          "code": "CE306L",
+          "name": "Sensors Technologies & Instrumentation in Civil Engineering",
+          "semester": 6,
+          "credits": 3,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE306T",
+          "code": "CE306T",
+          "name": "Design of Steel Structures",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE307T",
+          "code": "CE307T",
+          "name": "Foundation Engineering",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE309T",
+          "code": "CE309T",
+          "name": "Construction Engineering and management",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "Civil and Infrastructure Engineering-S7-SLOT-46",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "Civil and Infrastructure Engineering-S7-SLOT-47",
+          "code": null,
+          "name": "Elective",
+          "semester": 7,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CE308T",
+          "code": "CE308T",
+          "name": "Estimation and Costing in civil Engineering",
+          "semester": 7,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE401P",
+          "code": "CE401P",
+          "name": "BTP-I/Intensive BTP-1* 0 0 6/9 6/9",
+          "semester": 7,
+          "credits": 9,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "CE402C",
+          "code": "CE402C",
+          "name": "Civil and Infrastructure Engineering Design",
+          "semester": 7,
+          "credits": 6,
+          "status": "verified",
+          "source": "Civil 2026. Index.txt"
+        },
+        {
+          "course_key": "Civil and Infrastructure Engineering-S8-SLOT-48",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 6,
+          "status": "pending_configuration",
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source.",
+          "is_elective": true
+        },
+        {
+          "course_key": "CE402P",
+          "code": null,
+          "name": "Elective",
+          "semester": 8,
+          "credits": 9,
+          "status": "pending_configuration",
+          "source": "Civil 2026. Index.txt",
+          "is_elective": true,
+          "note": "Elective slot placeholder. Semester and credit value are retained from this department's curriculum source."
+        }
+      ]
+    },
+    "EE (2023 historical)": {
+      "branch": "Electrical Engineering",
+      "curriculum_version": "2023",
+      "source_status": "historical_source_only_not_default",
+      "courses": [
+        {
+          "course_key": "EE2023-BB103",
+          "code": "BB103",
+          "name": "Introduction to Modern Biology",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified",
+          "credit_type": null,
+          "source": "Electrical Engineering - 2023.pdf"
+        },
+        {
+          "course_key": "EE2023-CH102",
+          "code": "CH102",
+          "name": "Fundamental Concepts and Applications of Chemistry",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified",
+          "credit_type": null,
+          "source": "Electrical Engineering - 2023.pdf"
+        },
+        {
+          "course_key": "EE2023-CS101",
+          "code": "CS101",
+          "name": "Computer Programming",
+          "semester": 1,
+          "credits": 8,
+          "status": "verified",
+          "credit_type": null,
+          "source": "Electrical Engineering - 2023.pdf"
+        },
+        {
+          "course_key": "EE2023-HS103",
+          "code": "HS103",
+          "name": "Introduction to Fine Arts",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "PP/NP",
+          "source": "Electrical Engineering - 2023.pdf"
+        },
+        {
+          "course_key": "EE2023-HS106",
+          "code": "HS106",
+          "name": "Design Thinking and Creativity",
+          "semester": 1,
+          "credits": null,
+          "status": "verified",
+          "credit_type": "Pass/No Pass",
+          "source": "Electrical Engineering - 2023.pdf",
+          "note": "Pass/No Pass course; no numeric credit value is assigned."
+        },
+        {
+          "course_key": "EE2023-MA101",
+          "code": "MA101",
+          "name": "Calculus",
+          "semester": 1,
+          "credits": 8,
+          "status": "verified",
+          "credit_type": null,
+          "source": "Electrical Engineering - 2023.pdf"
+        },
+        {
+          "course_key": "EE2023-NO107/NO105",
+          "code": "NO107/NO105",
+          "name": "NSO/NSS",
+          "semester": 1,
+          "credits": 2,
+          "status": "verified",
+          "credit_type": null,
+          "source": "Electrical Engineering - 2023.pdf"
+        },
+        {
+          "course_key": "EE2023-PH101",
+          "code": "PH101",
+          "name": "Quantum Physics and Applications",
+          "semester": 1,
+          "credits": 6,
+          "status": "verified",
+          "credit_type": null,
+          "source": "Electrical Engineering - 2023.pdf"
+        },
+        {
+          "course_key": "EE2023-PH113",
+          "code": "PH113",
+          "name": "Hands on Science Laboratory - I",
+          "semester": 1,
+          "credits": 3,
+          "status": "verified",
+          "credit_type": null,
+          "source": "Electrical Engineering - 2023.pdf"
+        },
+        {
+          "course_key": "CS201",
+          "code": "CS201",
+          "name": "Data Structures and Algorithms",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "CS211",
+          "code": "CS211",
+          "name": "Data Structures and Algorithms Laboratory",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE101",
+          "code": "EE101",
+          "name": "Introduction to Electrical Systems and Electronics",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "MA102",
+          "code": "MA102",
+          "name": "Linear Algebra (1st Half)",
+          "semester": 2,
+          "credits": 4,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "MA103",
+          "code": "MA103",
+          "name": "Differential Equations - I (2nd Half)",
+          "semester": 2,
+          "credits": 4,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "ME111",
+          "code": "ME111",
+          "name": "Engineering Graphics Laboratory",
+          "semester": 2,
+          "credits": 5,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "ME113",
+          "code": "ME113",
+          "name": "Hands on Engineering Laboratory",
+          "semester": 2,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "PH102",
+          "code": "PH102",
+          "name": "Electricity and magnetism",
+          "semester": 2,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE202",
+          "code": "EE202",
+          "name": "Introduction to Analog Circuits (2nd Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE205",
+          "code": "EE205",
+          "name": "Network Theory",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE210",
+          "code": "EE210",
+          "name": "Signals and Systems",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE221",
+          "code": "EE221",
+          "name": "Introduction to Probability (1st Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE227",
+          "code": "EE227",
+          "name": "Data Analysis (2nd Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE229",
+          "code": "EE229",
+          "name": "Electronic Devices (1st Half)",
+          "semester": 3,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "HS201",
+          "code": "HS201",
+          "name": "Economics",
+          "semester": 3,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "MA201",
+          "code": "MA201",
+          "name": "Complex Analysis (1st Half)",
+          "semester": 3,
+          "credits": 4,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "MA203",
+          "code": "MA203",
+          "name": "Differential Equations II (2nd Half)",
+          "semester": 3,
+          "credits": 4,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE204",
+          "code": "EE204",
+          "name": "Digital Systems",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE206",
+          "code": "EE206",
+          "name": "Introduction to Electrical Machines (1st Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE208",
+          "code": "EE208",
+          "name": "Engineering Electromagnetics (1st Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE209",
+          "code": "EE209",
+          "name": "Introduction to Power Electronics (2nd Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE212",
+          "code": "EE212",
+          "name": "Devices and Circuits Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE214",
+          "code": "EE214",
+          "name": "Digital Circuits Lab",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE216",
+          "code": "EE216",
+          "name": "Comunications Lab (2nd Half)",
+          "semester": 4,
+          "credits": 2,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE223",
+          "code": "EE223",
+          "name": "Introduction to Power Systems (2nd Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE226",
+          "code": "EE226",
+          "name": "Control Systems and Laboratory",
+          "semester": 4,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE232",
+          "code": "EE232",
+          "name": "Introduction to Communication Systems (1st Half)",
+          "semester": 4,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE202L",
+          "code": "EE202L",
+          "name": "Electrical Mechines and Power Electronics Lab",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE301T",
+          "code": "EE301T",
+          "name": "Microprocessors and Microcontrollers",
+          "semester": 5,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE302C",
+          "code": "EE302C",
+          "name": "Digital Signal Processing",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt",
+          "note": "Historical EE 2023 curriculum value; retained separately from 2025 curricula."
+        },
+        {
+          "course_key": "EE302L",
+          "code": "EE302L",
+          "name": "Microprocessors and Microcontrollers Lab",
+          "semester": 5,
+          "credits": 3,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE304L",
+          "code": "EE304L",
+          "name": "Digital Signal Processing Lab",
+          "semester": 5,
+          "credits": 2,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "CE301T",
+          "code": "CE301T",
+          "name": "Environmental Studies",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE301L",
+          "code": "EE301L",
+          "name": "Electronics Design Lab",
+          "semester": 6,
+          "credits": 6,
+          "status": "verified",
+          "source": "Electrical Engineering - 2023.txt"
+        },
+        {
+          "course_key": "EE2023-S5-HSS-ELECTIVE",
+          "code": null,
+          "name": "Elective",
+          "semester": 5,
+          "credits": 6,
+          "status": "pending_configuration",
+          "source": "Electrical Engineering - 2023.pdf",
+          "is_elective": true,
+          "note": "HSS elective placeholder; 6 credits retained from the 2023 EE source."
+        },
+        {
+          "course_key": "EE2023-S5-ELECTIVE",
+          "code": null,
+          "name": "Elective",
+          "semester": 5,
+          "credits": 12,
+          "status": "pending_configuration",
+          "source": "Electrical Engineering - 2023.pdf",
+          "is_elective": true,
+          "note": "Elective placeholder; 12 credits retained from the 2023 EE source."
+        },
+        {
+          "course_key": "EE2023-S6-ELECTIVE",
+          "code": null,
+          "name": "Elective",
+          "semester": 6,
+          "credits": 24,
+          "status": "pending_configuration",
+          "source": "Electrical Engineering - 2023.pdf",
+          "is_elective": true,
+          "note": "Elective placeholder; 24 credits retained from the 2023 EE source."
+        }
+      ]
+    }
+  },
+  "credit_discrepancies": [
+    {
+      "code": "CS101C",
+      "source_credit_values": [
+        8,
+        9
+      ],
+      "status": "resolved",
+      "resolution": "user_confirmed",
+      "canonical_credits": 9,
+      "resolution_note": "User confirmed 9 credits; applied consistently to every branch."
+    },
+    {
+      "code": "CS201C",
+      "source_credit_values": [
+        6,
+        9
+      ],
+      "status": "pending_official_confirmation",
+      "resolution": "unresolved",
+      "resolution_note": "CSE 2025 lists 9 credits; Mathematics and Computing lists 6. Credit remains null until the canonical value is confirmed."
+    },
+    {
+      "code": "EE205T",
+      "source_credit_values": [
+        3,
+        6
+      ],
+      "status": "pending_official_confirmation",
+      "resolution": "unresolved",
+      "resolution_note": "Several 2025 sources list the first-half course at 3 credits; Chemical and Biochemical Engineering lists 6. Credit remains null where conflicting."
+    },
+    {
+      "code": "EE302C",
+      "source_credit_values": [
+        3,
+        6
+      ],
+      "status": "resolved_by_curriculum_version",
+      "resolution": "version_specific",
+      "resolutions_by_version": {
+        "2023 historical EE": 3,
+        "2025 ECE, EEE, and Engineering Physics": 6
+      },
+      "resolution_note": "The 3-credit entry belongs to the separate 2023 historical EE curriculum; the 2025 source curricula list 6. Both versions are preserved."
+    },
+    {
+      "code": "HS101T",
+      "source_credit_values": [
+        "PP/NP",
+        1
+      ],
+      "status": "resolved",
+      "resolution": "user_confirmed",
+      "canonical_credit_type": "PP/NP",
+      "canonical_credits": 0,
+      "resolution_note": "User confirmed Pass/No Pass treatment; Mechanical Engineering 1-credit anomaly is not used."
+    },
+    {
+      "code": "ME101C",
+      "source_credit_values": [
+        5,
+        6
+      ],
+      "status": "pending_official_confirmation",
+      "resolution": "unresolved",
+      "resolution_note": "ECE, EEE, and Civil sources list 5 credits; Chemical and Biochemical Engineering lists 6. Credit remains null until confirmed."
+    }
+  ],
+  "catalogue_metadata": {
+    "source_documents": 9,
+    "extraction_method": "PDF text extraction followed by source-row normalization",
+    "rules": [
+      "Course codes and credits are retained as printed where unambiguous.",
+      "Conflicting numeric credits for the same code are withheld and listed in credit_discrepancies.",
+      "Elective/project allocations are represented as pending_configuration slots, not invented course identities.",
+      "EE 2023 is kept as a separate historical curriculum.",
+      "EE current curriculum remains pending a newer source document."
+    ],
+    "known_source_issues": [
+      "Some PDFs omit codes for named courses; those rows require manual code confirmation.",
+      "EEE PDF contains two Semester IV table variants.",
+      "Some tables use legacy or placeholder course codes.",
+      "Course code-less elective/project choices depend on individual student selection.",
+      "CS201C has unresolved 6-versus-9 credit discrepancy.",
+      "EE205T has unresolved 3-versus-6 credit discrepancy across source curricula.",
+      "ME101C has unresolved 5-versus-6 credit discrepancy.",
+      "EE302C is version-specific: 3 credits in historical EE 2023 and 6 credits in the 2025 source curricula."
+    ],
+    "credit_resolution_policy": [
+      "User-confirmed canonical credit decisions are applied consistently across all branches.",
+      "Pass/No Pass courses are represented with credits 0 and credit_type PP/NP.",
+      "Historical curriculum versions remain separate and may retain version-specific values.",
+      "Unresolved conflicts retain credits null and pending_verification status; no value is guessed."
+    ],
+    "elective_placeholder_policy": "Each source-listed elective slot is represented by one generic Elective placeholder, retaining its department-specific semester and source-listed credits."
+  }
+}
