@@ -4,6 +4,11 @@ import { useNavigate } from "react-router-dom";
 import { GoogleLogin } from "@react-oauth/google";
 import "./Login.css";
 
+const API_BASE_URL = (
+  import.meta.env.VITE_API_URL ||
+  "https://pathwise-ai-backend-b38t.onrender.com"
+).replace(/\/$/, "");
+
 function Login() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
@@ -14,22 +19,15 @@ function Login() {
     setError("");
 
     try {
-      const API_BASE_URL = (
-  import.meta.env.VITE_API_URL ||
-  "https://pathwise-ai-backend-b38t.onrender.com"
-).replace(/\/$/, "");
-
-const response = await fetch(
-  `${API_BASE_URL}/auth/google`,
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            credential: credentialResponse.credential,
-          }),
-        }
-      );
+      const response = await fetch(`${API_BASE_URL}/auth/google`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          credential: credentialResponse.credential,
+        }),
+      });
 
       const data = await response.json();
 
@@ -45,8 +43,8 @@ const response = await fetch(
       } else {
         navigate("/onboarding");
       }
-
     } catch (err) {
+      console.error("Google authentication error:", err);
       setError(err.message || "Something went wrong. Please try again.");
     } finally {
       setLoading(false);
@@ -58,7 +56,9 @@ const response = await fetch(
       <nav className="login-nav">
         <div className="login-logo">
           <span className="logo-symbol">P</span>
-          <span>pathwise<span className="logo-ai"> AI</span></span>
+          <span>
+            pathwise<span className="logo-ai"> AI</span>
+          </span>
         </div>
 
         <a href="/" className="back-home">
@@ -91,7 +91,9 @@ const response = await fetch(
           <div className="google-login-wrapper">
             <GoogleLogin
               onSuccess={handleGoogleSuccess}
-              onError={() => setError("Google sign-in was unsuccessful.")}
+              onError={() =>
+                setError("Google sign-in was unsuccessful.")
+              }
               theme="outline"
               shape="rectangular"
               size="large"
